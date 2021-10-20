@@ -16,6 +16,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="triviasinglegame" translatesAutoresizingMaskIntoConstraints="NO" id="AHv-pP-8yF">
+                                <rect key="frame" x="-193" y="-137" width="629" height="1170"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="FlS-sP-F9q" userLabel="Main_Stack_View">
                                 <rect key="frame" x="0.0" y="44" width="414" height="852"/>
                                 <subviews>
@@ -24,7 +28,6 @@
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ggk-MA-eXy" userLabel="score_Label">
                                                 <rect key="frame" x="223" y="0.0" width="93" height="50"/>
-                                                <color key="backgroundColor" red="0.64672800100000005" green="0.81707823270000002" blue="0.8506553348" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="25" id="DeN-m8-o1B"/>
                                                     <constraint firstAttribute="height" constant="50" id="Yun-of-ykI"/>
@@ -38,8 +41,7 @@
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The quiz" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="odG-EB-yYR" userLabel="Question_Label">
                                                         <rect key="frame" x="0.0" y="0.0" width="374" height="420"/>
-                                                        <color key="backgroundColor" red="0.0" green="0.58980089430000004" blue="1" alpha="0.60378725165562919" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <fontDescription key="fontDescription" type="italicSystem" pointSize="22"/>
+                                                        <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="24"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                         <userDefinedRuntimeAttributes>
@@ -47,7 +49,6 @@
                                                         </userDefinedRuntimeAttributes>
                                                     </label>
                                                 </subviews>
-                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <constraints>
                                                     <constraint firstItem="odG-EB-yYR" firstAttribute="leading" secondItem="Q9Q-Rk-B7U" secondAttribute="leading" id="IT0-2N-nij"/>
                                                     <constraint firstItem="odG-EB-yYR" firstAttribute="top" secondItem="Q9Q-Rk-B7U" secondAttribute="top" id="MPo-2V-dQ4"/>
@@ -56,7 +57,6 @@
                                                 </constraints>
                                             </view>
                                         </subviews>
-                                        <color key="backgroundColor" red="0.64672800100000005" green="0.81707823270000002" blue="0.8506553348" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
                                             <constraint firstAttribute="trailing" secondItem="Q9Q-Rk-B7U" secondAttribute="trailing" constant="20" id="05N-iK-ENF"/>
                                             <constraint firstAttribute="bottom" secondItem="Q9Q-Rk-B7U" secondAttribute="bottom" id="50o-0X-kps"/>
@@ -76,7 +76,6 @@
                                                 <subviews>
                                                     <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JWf-b2-aHs" userLabel="True_Button">
                                                         <rect key="frame" x="0.0" y="0.0" width="334" height="86"/>
-                                                        <color key="backgroundColor" red="0.45009386540000001" green="0.98132258650000004" blue="0.4743030667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="40"/>
                                                         <state key="normal" title="True">
                                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -92,7 +91,6 @@
                                                     </button>
                                                     <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JmA-cV-pIe" userLabel="False_Button">
                                                         <rect key="frame" x="0.0" y="106" width="334" height="86"/>
-                                                        <color key="backgroundColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <fontDescription key="fontDescription" name="Didot" family="Didot" pointSize="40"/>
                                                         <state key="normal" title="False">
                                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -102,10 +100,8 @@
                                                         </connections>
                                                     </button>
                                                 </subviews>
-                                                <color key="backgroundColor" red="0.64672800100000005" green="0.81707823270000002" blue="0.8506553348" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             </stackView>
                                         </subviews>
-                                        <color key="backgroundColor" red="0.64672800100000005" green="0.81707823270000002" blue="0.8506553348" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
                                             <constraint firstAttribute="bottom" secondItem="21b-92-HeQ" secondAttribute="bottom" constant="40" id="T99-BX-PZc"/>
                                             <constraint firstItem="21b-92-HeQ" firstAttribute="top" secondItem="ybF-fB-QcT" secondAttribute="top" constant="40" id="e1h-Xb-DB5"/>
@@ -116,13 +112,12 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="upU-NF-Ng0" userLabel="Bottom_View">
                                         <rect key="frame" x="0.0" y="732" width="414" height="120"/>
                                         <subviews>
-                                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="fV2-sr-qcT">
+                                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.10000000000000001" translatesAutoresizingMaskIntoConstraints="NO" id="fV2-sr-qcT">
                                                 <rect key="frame" x="20" y="20" width="374" height="4"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <color key="tintColor" systemColor="systemYellowColor"/>
+                                                <color key="tintColor" systemColor="systemBlueColor"/>
                                             </progressView>
                                         </subviews>
-                                        <color key="backgroundColor" red="0.64672800100169425" green="0.81707823265257618" blue="0.85065533476646504" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="120" id="Z2i-2a-4fH"/>
                                             <constraint firstItem="fV2-sr-qcT" firstAttribute="centerX" secondItem="upU-NF-Ng0" secondAttribute="centerX" id="mCn-ic-gUw"/>
@@ -131,11 +126,10 @@
                                         </constraints>
                                     </view>
                                 </subviews>
-                                <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" red="0.25109831032894209" green="0.42666072349304612" blue="0.96080166101455688" alpha="0.72819225993377479" colorSpace="custom" customColorSpace="displayP3"/>
+                        <color key="backgroundColor" red="0.91258936349999997" green="0.92898273610000004" blue="0.95125080900000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="FlS-sP-F9q" secondAttribute="bottom" id="C23-XY-YRZ"/>
                             <constraint firstAttribute="trailing" secondItem="FlS-sP-F9q" secondAttribute="trailing" id="iPt-ZE-tHl"/>
@@ -153,15 +147,13 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="319" y="-818"/>
+            <point key="canvasLocation" x="318.84057971014494" y="-818.30357142857144"/>
         </scene>
     </scenes>
     <resources>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemYellowColor">
-            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        <image name="triviasinglegame" width="1732.5" height="2598.5"/>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
