@@ -21,3 +21,10 @@ Fifth App that replicates the Trivia game with the choice of an answer between t
 
 ## Deadline 
 Wednesday 20th October 12:00 midday
+
+## ScreenShot
+
+
+
+https://user-images.githubusercontent.com/89598376/138057114-858b5369-edbb-4f8c-a0f4-bef5a416c799.mp4
+
