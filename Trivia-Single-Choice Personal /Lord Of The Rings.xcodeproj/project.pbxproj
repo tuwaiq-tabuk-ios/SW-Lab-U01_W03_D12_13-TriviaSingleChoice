@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CAB1CA14271DFBD400326832 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB1CA13271DFBD400326832 /* AppDelegate.swift */; };
+		CAB1CA16271DFBD400326832 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB1CA15271DFBD400326832 /* SceneDelegate.swift */; };
+		CAB1CA18271DFBD400326832 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB1CA17271DFBD400326832 /* ViewController.swift */; };
+		CAB1CA1B271DFBD400326832 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAB1CA19271DFBD400326832 /* Main.storyboard */; };
+		CAB1CA1D271DFBD500326832 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAB1CA1C271DFBD500326832 /* Assets.xcassets */; };
+		CAB1CA20271DFBD500326832 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAB1CA1E271DFBD500326832 /* LaunchScreen.storyboard */; };
+		CAB1CA2A271E0A1E00326832 /* questionsAndAnswers.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAB1CA28271E0A1E00326832 /* questionsAndAnswers.swift */; };
+		CAB1CA2C271E0EC500326832 /* clap.wav in Resources */ = {isa = PBXBuildFile; fileRef = CAB1CA2B271E0EC500326832 /* clap.wav */; };
+		CAB1CA2E271F437900326832 /* fail.wav in Resources */ = {isa = PBXBuildFile; fileRef = CAB1CA2D271F437900326832 /* fail.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CAB1CA10271DFBD400326832 /* Lord Of The Rings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lord Of The Rings.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAB1CA13271DFBD400326832 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CAB1CA15271DFBD400326832 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CAB1CA17271DFBD400326832 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CAB1CA1A271DFBD400326832 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CAB1CA1C271DFBD500326832 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CAB1CA1F271DFBD500326832 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CAB1CA21271DFBD500326832 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAB1CA28271E0A1E00326832 /* questionsAndAnswers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = questionsAndAnswers.swift; sourceTree = "<group>"; };
+		CAB1CA2B271E0EC500326832 /* clap.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = clap.wav; sourceTree = "<group>"; };
+		CAB1CA2D271F437900326832 /* fail.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fail.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CAB1CA0D271DFBD400326832 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CAB1CA07271DFBD400326832 = {
+			isa = PBXGroup;
+			children = (
+				CAB1CA12271DFBD400326832 /* Trivia-Single-Choice */,
+				CAB1CA11271DFBD400326832 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CAB1CA11271DFBD400326832 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAB1CA10271DFBD400326832 /* Lord Of The Rings.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CAB1CA12271DFBD400326832 /* Trivia-Single-Choice */ = {
+			isa = PBXGroup;
+			children = (
+				CAB1CA13271DFBD400326832 /* AppDelegate.swift */,
+				CAB1CA15271DFBD400326832 /* SceneDelegate.swift */,
+				CAB1CA17271DFBD400326832 /* ViewController.swift */,
+				CAB1CA19271DFBD400326832 /* Main.storyboard */,
+				CAB1CA32271F585900326832 /* Model */,
+				CAB1CA1C271DFBD500326832 /* Assets.xcassets */,
+				CAB1CA1E271DFBD500326832 /* LaunchScreen.storyboard */,
+				CAB1CA2B271E0EC500326832 /* clap.wav */,
+				CAB1CA2D271F437900326832 /* fail.wav */,
+				CAB1CA21271DFBD500326832 /* Info.plist */,
+			);
+			path = "Trivia-Single-Choice";
+			sourceTree = "<group>";
+		};
+		CAB1CA32271F585900326832 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CAB1CA28271E0A1E00326832 /* questionsAndAnswers.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CAB1CA0F271DFBD400326832 /* Lord Of The Rings */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAB1CA24271DFBD500326832 /* Build configuration list for PBXNativeTarget "Lord Of The Rings" */;
+			buildPhases = (
+				CAB1CA0C271DFBD400326832 /* Sources */,
+				CAB1CA0D271DFBD400326832 /* Frameworks */,
+				CAB1CA0E271DFBD400326832 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lord Of The Rings";
+			productName = "Trivia-Single-Choice";
+			productReference = CAB1CA10271DFBD400326832 /* Lord Of The Rings.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CAB1CA08271DFBD400326832 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					CAB1CA0F271DFBD400326832 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = CAB1CA0B271DFBD400326832 /* Build configuration list for PBXProject "Lord Of The Rings" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CAB1CA07271DFBD400326832;
+			productRefGroup = CAB1CA11271DFBD400326832 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CAB1CA0F271DFBD400326832 /* Lord Of The Rings */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CAB1CA0E271DFBD400326832 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAB1CA2E271F437900326832 /* fail.wav in Resources */,
+				CAB1CA2C271E0EC500326832 /* clap.wav in Resources */,
+				CAB1CA20271DFBD500326832 /* LaunchScreen.storyboard in Resources */,
+				CAB1CA1D271DFBD500326832 /* Assets.xcassets in Resources */,
+				CAB1CA1B271DFBD400326832 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CAB1CA0C271DFBD400326832 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CAB1CA2A271E0A1E00326832 /* questionsAndAnswers.swift in Sources */,
+				CAB1CA18271DFBD400326832 /* ViewController.swift in Sources */,
+				CAB1CA14271DFBD400326832 /* AppDelegate.swift in Sources */,
+				CAB1CA16271DFBD400326832 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CAB1CA19271DFBD400326832 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAB1CA1A271DFBD400326832 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CAB1CA1E271DFBD500326832 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CAB1CA1F271DFBD500326832 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CAB1CA22271DFBD500326832 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CAB1CA23271DFBD500326832 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAB1CA25271DFBD500326832 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U9SM3FBS5M;
+				INFOPLIST_FILE = "Trivia-Single-Choice/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aishaali.Trivia-Single-Choice";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CAB1CA26271DFBD500326832 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U9SM3FBS5M;
+				INFOPLIST_FILE = "Trivia-Single-Choice/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aishaali.Trivia-Single-Choice";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CAB1CA0B271DFBD400326832 /* Build configuration list for PBXProject "Lord Of The Rings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAB1CA22271DFBD500326832 /* Debug */,
+				CAB1CA23271DFBD500326832 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAB1CA24271DFBD500326832 /* Build configuration list for PBXNativeTarget "Lord Of The Rings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAB1CA25271DFBD500326832 /* Debug */,
+				CAB1CA26271DFBD500326832 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CAB1CA08271DFBD400326832 /* Project object */;
+}
