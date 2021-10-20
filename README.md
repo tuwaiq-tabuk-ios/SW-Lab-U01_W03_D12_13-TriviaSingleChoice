@@ -21,7 +21,11 @@ Fifth App that replicates the Trivia game with the choice of an answer between t
 
 ## vidoe
 
-https://user-images.githubusercontent.com/91871710/138057412-17630ba0-9034-41df-b9e0-f6c59c064d81.mp4
+https://user-images.githubusercontent.com/91871710/138058053-55b37e8b-b7a8-4465-b0ea-7126eb09107e.mp4
+
+
+
+
 
 
 
