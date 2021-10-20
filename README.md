@@ -21,3 +21,8 @@ Fifth App that replicates the Trivia game with the choice of an answer between t
 
 ## Deadline 
 Wednesday 20th October 12:00 midday
+
+""Creating a test from true and false, it shows a red color in error and a green color in fact that increases the degree than the truth and does not exceed the error, and we go back to the beginning at the first question""
+
+
+
