@@ -20,4 +20,6 @@ Fifth App that replicates the Trivia game with the choice of an answer between t
 5. Once the questions have been completed, the user is indicated that the game is over, and he/she is invited to start the game again.
 
 ## Deadline 
-Wednesday 20th October 12:00 midday
+Wednesday 20th October 12:00 midday![Simulator Screen Shot - iPhone 12 - 2021-10-20 at 16 34 56](https://user-images.githubusercontent.com/91871691/138103658-f8ff4a20-1ffb-485a-b8f2-c96b16ac686c.png)
+
+
