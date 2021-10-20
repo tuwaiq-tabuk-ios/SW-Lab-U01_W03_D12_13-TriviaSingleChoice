@@ -2,9 +2,10 @@
 Fifth App that replicates the Trivia game with the choice of an answer between two options 
 
 ## Demo Video
-<div>
-  <iframe width="862" height="495" src="https://www.youtube.com/embed/kdcI82OIvvw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  </div>
+https://user-images.githubusercontent.com/91820775/138068464-967afa30-06e2-4e2a-9f38-cb0fedc1dede.mp4
+
+
+
 ## Topics
 1. Auto Layout
 2. 2-dimensional Arrays
