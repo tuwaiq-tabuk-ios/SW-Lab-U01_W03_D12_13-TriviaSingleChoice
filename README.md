@@ -12,6 +12,15 @@ Fifth App that replicates the Trivia game with the choice of an answer between t
 8. The importance of using system colors for Dark Mode and Normal Mode
 9. Show modal messages with the class `UIAlertController`
 
+## Video
+
+https://user-images.githubusercontent.com/91871669/138056765-02f0d243-55c8-4e06-994d-c9ab3bc8f28d.mp4
+
+
+
+
+
+
 ## Description
 1. Create the fifth Bootcamp App. 
 2. In TriviaSingleChoice, the user has to answer a series of questions that have a true or false answer. 
@@ -20,4 +29,5 @@ Fifth App that replicates the Trivia game with the choice of an answer between t
 5. Once the questions have been completed, the user is indicated that the game is over, and he/she is invited to start the game again.
 
 ## Deadline 
-Wednesday 20th October 12:00 midday
+Wednesday 20th October 12:00 midday<img width="1440" alt="Screen Shot 1443-03-14 at 11 19 55 AM" src="https://user-images.githubusercontent.com/91871669/138056787-847f040c-9a30-4935-8f31-2524ea556618.png">
+
