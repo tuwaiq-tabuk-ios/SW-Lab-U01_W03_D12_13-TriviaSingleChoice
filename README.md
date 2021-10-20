@@ -1,6 +1,11 @@
 # SW-Lab-U01_W03_D12_13-TriviaSingleChoice
 Fifth App that replicates the Trivia game with the choice of an answer between two options 
 
+## Demo Video
+https://user-images.githubusercontent.com/91820775/138068464-967afa30-06e2-4e2a-9f38-cb0fedc1dede.mp4
+
+
+
 ## Topics
 1. Auto Layout
 2. 2-dimensional Arrays
