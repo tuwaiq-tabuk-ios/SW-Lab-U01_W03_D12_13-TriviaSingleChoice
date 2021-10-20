@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "depositphotos_367805574-stock-illustration-vector-illustration-illustration-concept-intelligent.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "depositphotos_367805574-stock-illustration-vector-illustration-illustration-concept-intelligent-1.jpg",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "depositphotos_367805574-stock-illustration-vector-illustration-illustration-concept-intelligent-2.jpg",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
