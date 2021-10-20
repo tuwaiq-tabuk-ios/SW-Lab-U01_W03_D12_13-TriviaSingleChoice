@@ -18,7 +18,9 @@ Fifth App that replicates the Trivia game with the choice of an answer between t
 3. If the user gets the answer right, then his/her score increases 5 points and if he/she fails, his/her score decreases 10 points. 
 4. Once the user has responded, the score is updated, and a new question appears. 
 5. Once the questions have been completed, the user is indicated that the game is over, and he/she is invited to start the game again.
-6. ![Simulator Screen Shot - iPhone 11 - 2021-10-19 at 14 27 37](https://user-images.githubusercontent.com/91871856/138085722-191e9ffd-405f-4abf-a10c-3ca57fc07378.png)
+6. ![Simulator Screen Shot - iPhone 11 - 2021-10-20 at 14 43 26](https://user-images.githubusercontent.com/91871856/138086500-561d9ef3-47f8-4252-aa74-9b4271f5d292.png)
+
+
 
 
 ## Deadline 
