@@ -30,10 +30,10 @@
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="svJ-1W-28T">
                                                         <rect key="frame" x="0.0" y="0.0" width="414" height="50"/>
                                                         <subviews>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Score: 0" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0wb-90-4Cl">
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Score: 0" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0wb-90-4Cl">
                                                                 <rect key="frame" x="302" y="8" width="93" height="18"/>
                                                                 <constraints>
-                                                                    <constraint firstAttribute="width" constant="93" id="3zd-Df-hn3"/>
+                                                                    <constraint firstAttribute="width" constant="93" id="Etl-59-F0U"/>
                                                                 </constraints>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                                                 <color key="textColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
@@ -42,10 +42,10 @@
                                                         </subviews>
                                                         <color key="backgroundColor" red="0.019424545620000001" green="0.18720293469999999" blue="0.37412077799999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="trailing" secondItem="0wb-90-4Cl" secondAttribute="trailing" constant="69" id="4b5-12-3CW"/>
-                                                            <constraint firstAttribute="bottom" secondItem="0wb-90-4Cl" secondAttribute="bottom" constant="17" id="5HB-pp-cCr"/>
-                                                            <constraint firstItem="0wb-90-4Cl" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="svJ-1W-28T" secondAttribute="leading" constant="20" symbolic="YES" id="WYU-Mc-KRa"/>
-                                                            <constraint firstItem="0wb-90-4Cl" firstAttribute="top" secondItem="svJ-1W-28T" secondAttribute="top" constant="15" id="lBG-FG-Eug"/>
+                                                            <constraint firstItem="0wb-90-4Cl" firstAttribute="leading" secondItem="svJ-1W-28T" secondAttribute="leading" constant="302" id="2jC-tK-1DD"/>
+                                                            <constraint firstAttribute="bottom" secondItem="0wb-90-4Cl" secondAttribute="bottom" constant="24" id="7Hq-cW-oCc"/>
+                                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="0wb-90-4Cl" secondAttribute="trailing" id="WSR-YJ-6CN"/>
+                                                            <constraint firstItem="0wb-90-4Cl" firstAttribute="top" secondItem="svJ-1W-28T" secondAttribute="topMargin" id="ZQ1-N1-uNQ"/>
                                                         </constraints>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VqF-gf-L9h">

@@ -74,14 +74,14 @@ class ViewController: UIViewController {
     
     
     
-    
-    
-    
     func reStart() {
-        //updateQuestion()
         score = 0
         questionNumber = 0
-    }
+        triviaBrain.score = 0
+        scoreLabel.text = "Score: \(triviaBrain.getScore())"
+      stopSound()
+     }
+  
     
     func playSound() {
         guard let url = Bundle.main.url(forResource: "Clapping Sound Effects - Applause - Audience - Crowd Sound Effect (128  kbps) (shabakngy.com)", withExtension: "mp3") else { return }
@@ -110,6 +110,7 @@ class ViewController: UIViewController {
     func stopSound(){
         player?.stop()
     }
+  
     func configureButtons(){
     trueButton.layer.cornerRadius = 10
     trueButton.layer.borderWidth = 3
