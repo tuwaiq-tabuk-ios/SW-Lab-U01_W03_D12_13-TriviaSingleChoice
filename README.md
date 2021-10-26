@@ -19,5 +19,9 @@ Fifth App that replicates the Trivia game with the choice of an answer between t
 4. Once the user has responded, the score is updated, and a new question appears. 
 5. Once the questions have been completed, the user is indicated that the game is over, and he/she is invited to start the game again.
 
+![Simulator Screen Shot - iPhone 12 - 2021-10-20 at 14 38 28](https://user-images.githubusercontent.com/91871708/138085953-dedc637b-b2fe-4f09-9f28-de75df2c9ede.png)
+
+
+
 ## Deadline 
 Wednesday 20th October 12:00 midday
