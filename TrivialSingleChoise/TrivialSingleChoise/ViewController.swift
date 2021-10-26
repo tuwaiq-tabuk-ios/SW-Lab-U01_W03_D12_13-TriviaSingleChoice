@@ -63,7 +63,6 @@ class ViewController: UIViewController {
     scoreLabel.text = "Score: \(question.getScore())"
     questionLabel.text = question.getQuestionText()
     progressView.progress = question.getProgress()
-    
     trueButton.backgroundColor = UIColor.clear
     falseButton.backgroundColor = UIColor.clear
   }
@@ -89,6 +88,8 @@ class ViewController: UIViewController {
     func reStart() {
       score = 0
       questionNumber = 0
+        question.score = 0
+        scoreLabel.text = "Score: \(question.getScore())"
     }
     
   
