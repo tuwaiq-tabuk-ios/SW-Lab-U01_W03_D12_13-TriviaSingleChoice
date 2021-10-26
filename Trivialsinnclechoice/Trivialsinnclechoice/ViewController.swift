@@ -29,6 +29,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         updateQuestion()
         updateInterFace()
+
         // Do any additional setup after loading the view.
     }
 
@@ -40,15 +41,19 @@ class ViewController: UIViewController {
             //if selectedAnswer == 1{
                 //theOptionA.backgroundColor = .greetn
             //}
+            sender.backgroundColor = .systemGreen
             score += 1
         }else{
         print("Incorrect")
+            sender.backgroundColor = .systemRed
+
         }
         questionoNumber += 1
-        updateQuestion()
+        Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(updateQuestion), userInfo: nil, repeats: false)
     }
     
-    func updateQuestion() {
+    
+   @objc func updateQuestion() {
         if questionoNumber <= allQuestion.list.count - 1 {
             questionosLabel.text = allQuestion.list[questionoNumber].question
             seletedAnswer = allQuestion.list[questionoNumber].correstAnswer
@@ -69,6 +74,8 @@ class ViewController: UIViewController {
         scoreLabel.text = "score: \(score)"
         questionosNumberLabel.text = "\(questionoNumber + 1)/\(allQuestion.list.count)"
         progressView.progress = Float(Float(questionoNumber + 1) / Float( allQuestion.list.count))
+        optionA.backgroundColor = .white
+            optionB.backgroundColor = .white
     }
     
     func reStart() {
