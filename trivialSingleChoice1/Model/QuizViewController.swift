@@ -11,7 +11,7 @@ class ViewController: UIViewController {
   
   
   var currentProgress  = 0
-  var quiz : Quiz = Quiz()
+  var quiz :Quiz = Quiz()
   var score = 0
   
   
@@ -19,10 +19,9 @@ class ViewController: UIViewController {
     super.viewDidLoad()
     configureButtons()
     progressView.progress = 0
-    
     scoreLabel.text = "Score : \(score)"
     updateUI()
-    
+
   }
   
   
@@ -32,6 +31,7 @@ class ViewController: UIViewController {
     
     if isCorrect {
       sender.backgroundColor = UIColor.green
+      
     }else{
       sender.backgroundColor = UIColor.red
     }
@@ -44,8 +44,10 @@ class ViewController: UIViewController {
     
     if quiz.questionNumber == quiz.questions.count {
       showMessage()
+      
     }
     updateUI()
+
     
   }
   
@@ -64,24 +66,24 @@ class ViewController: UIViewController {
   func configureButtons() {
     trueButton.backgroundColor = .gray
     trueButton.layer.cornerRadius = 10
-    trueButton.layer.borderWidth = 1
+    trueButton.layer.borderWidth = 3
     trueButton.layer.borderColor = UIColor.black.cgColor
     
     falseButton.backgroundColor = .gray
+    
     falseButton.layer.cornerRadius = 10
     falseButton.layer.borderWidth = 1
     falseButton.layer.borderColor = UIColor.black.cgColor
   }
   
-  
+
   func showMessage() {
-    let alert = UIAlertController(title: "Game Over", message: "", preferredStyle: UIAlertController.Style.alert)
-    
-    alert.addAction(UIAlertAction(title: "Cancel", style: UIAlertAction.Style.default, handler: { _ in
-      //Cancel Action
-    }))
-    
-    
-    self.present(alert, animated: true, completion: nil)
+    let alert = UIAlertController(title: "Game Over !", message: "Your Score is : \(quiz.getScore())", preferredStyle: .alert)
+           alert.addAction(UIAlertAction(title: "Cancel", style: .default, handler: nil))
+           self.present(alert, animated: true)
+  
+   
+  
   }
+  
 }
